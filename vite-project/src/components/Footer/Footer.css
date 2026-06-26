@@ -1,6 +1,6 @@
 .footer{
     color: #d9d9d9;
-    background-color: #323232;
+    background-color: orange;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@
     width: 100%;
     height: 2px;
     margin: 20px 0;
-    background-color: grey;
+    background-color: black;
     border: none;
 }
 @media (max-width:750px) {
