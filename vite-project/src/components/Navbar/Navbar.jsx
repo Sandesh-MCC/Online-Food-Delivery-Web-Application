@@ -51,6 +51,14 @@ const Navbar = ({ setShowLogin }) => {
         >
           contact us
         </a>
+
+        <a
+          href="#block"
+          onClick={() => setMenu("block")}
+          className={menu === "block" ? "active" : ""}
+        >
+          Block
+        </a>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
